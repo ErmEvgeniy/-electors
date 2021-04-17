@@ -47,13 +47,13 @@ class CallbackTest {
 //    @Test
 //    void shouldTestV2() {
 //        driver.get("http://localhost:9999");
-//        WebElement form = driver.findElement(By.cssSelector("[data-test-id=callback-form]"));
+//        WebElement form = driver.findElement(By.cssSelector("[enctype=application/x-www-form-urlencoded]"));
 //        form.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Василий");
 //        form.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79270000000");
 //        form.findElement(By.cssSelector("[data-test-id=agreement]")).click();
 //        form.findElement(By.cssSelector("[data-test-id=submit]")).click();
 //        String text = driver.findElement(By.className("alert-success")).getText();
-//        assertEquals("Ваша заявка успешно отправлена!", text.trim());
-//    }
+//        assertEquals("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.", text.trim());
+//     }
 }
 
