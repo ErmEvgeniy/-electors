@@ -19,13 +19,12 @@ class CallbackTest {
 
     @BeforeAll
     static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "./driver/Linux/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "./driver/mac/chromedriver");
 
     }
 
     @BeforeEach
     void setUp() {
-        driver = new ChromeDriver();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
